@@ -1,0 +1,213 @@
+/*============================
+    Navigation
+===========================*/
+.navbar {
+    background: #000;
+}
+
+.navbar .nav-item {
+    padding-left: 1em !important;
+}
+
+.navbar .nav-link {
+    text-transform: uppercase;
+}
+
+/*============================
+    Carousel
+===========================*/
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-img-1 {
+    background: url(../img/image1.jpeg);
+    background-size: cover;
+}
+
+.carousel-img-2 {
+    background: url(../img/image2.jpeg);
+    background-size: cover;
+}
+
+.carousel-img-3 {
+    background: url('../img/image3.jpeg');
+    background-size: cover;
+}
+
+/*============================
+    Home Icon
+===========================*/
+#home-icon .fa {
+    font-size: 50px;
+}
+
+/*============================
+    Home Get Started
+===========================*/
+#getstart {
+    background: url(../img/bg1.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    position: relative;
+}
+
+#getstart .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*============================
+    Home Video
+===========================*/
+#home-video {
+    background: url(../img/people.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    position: relative;
+}
+
+#home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#home-video .fa {
+    font-size: 50px;
+}
+
+/*===========================
+    Gallery
+===========================*/
+#photo-gallery img {
+    min-height: 250px;
+}
+
+/*===========================
+    Copyright
+===========================*/
+#copyright {
+    background: #000;
+}
+
+/*===========================
+    About Section
+===========================*/
+
+#page {
+    background: url(../img/image1.jpeg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+/*===========================
+    About Info Section
+===========================*/
+#about-info img {
+    width: 350px;
+    height: 350px;
+}
+
+/*===========================
+    About Gallery Section
+===========================*/
+#about-gallery .fa {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+/*===========================
+    About Testimonial Section
+===========================*/
+#testimonial .slick-prev::before {
+    color: #000;
+}
+
+#testimonial .slick-next::before {
+    color: #000;
+}
+
+/*===========================
+    Services Section
+===========================*/
+#services {
+    background: url(../img/image3.jpeg);
+    background-size: cover;
+    height: 200px;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============================
+    Media Query
+===========================*/
+@media(max-width:767px) {
+    #getstart {
+        min-height: 300px;
+    }
+}
+
+@media(max-width: 480px) {
+    .carousel h2 {
+        font-size: 2.5rem;
+    }
+
+    #getstart {
+        min-height: 300px;
+    }
+}
